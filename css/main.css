@@ -1,0 +1,221 @@
+/*******************************************************
+General
+*******************************************************/
+
+#wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 150px 5% 50px 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/*******************************************************
+Heading
+*******************************************************/
+
+header {
+  position: fixed;
+  z-index: 99;
+  text-align: center;
+  margin: 0 0 30px 0;
+  padding: 10px 0 0 0;
+  width: 100%;
+  border-bottom: 1px solid #999;
+  max-height: 175px;
+}
+
+h1 {
+  font-family: 'Special Elite', sans-serif;
+  margin: 10px 0 5px 0;
+  font-size: 3.5em;
+}
+
+h2 {
+  font-family: 'Amatic SC', sans-serif;
+  margin: 0 0 5px ;
+  padding: 30px 0;
+  font-size: 3em;
+  font-weight: normal;
+}
+
+/*******************************************************
+Navigation
+*******************************************************/
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  width: 15%;
+}
+
+nav a {
+  font-family: 'Amatic SC', sans-serif;
+  margin: 0 0 0;
+  font-size: 2em;
+  font-weight: normal;
+}
+
+/*******************************************************
+Body
+*******************************************************/
+
+h3 {
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 2em;
+  margin: 20px 10px;
+  font-weight: normal;
+}
+
+h4 {
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 1.5em;
+  margin: 0 20px;
+  font-weight: normal;
+}
+
+/*******************************************************
+Page: Profile
+*******************************************************/
+
+
+.selfphoto {
+  float: right;
+  width: 200px;
+  max-width: 90%;
+  margin: 50px 20px 20px 30px;
+  border: solid 5px #999;
+}
+
+.animal {
+  float: left;
+  margin: 10px 20px;
+  width: 325px;
+  max-width: 90%;
+  border: solid 5px #999;
+}
+
+.map {
+  float: left;
+  max-width: 90%;
+  margin: 10px 30px 40px 30px;
+  border-radius: 50%;
+}
+
+#wrapper p {
+  text-align: justify;
+}
+
+#wrapper ul {
+  list-style: none;
+  text-align: center;
+}
+
+#wrapper li {
+  display: inline-block;
+  padding: 5px 20px;
+}
+
+#hello {
+  text-align: center;
+}
+
+#Skills h4{
+  text-align: center;
+}
+
+.software img{
+  max-width: 40px;
+}
+
+/*******************************************************
+Page: Monte
+*******************************************************/
+
+.monte {
+  float: left;
+  width: 300px;
+  max-width: 90%;
+  margin: 50px 30px 20px 20px;
+  border: solid 5px #999;
+}
+
+/*******************************************************
+Footer
+*******************************************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #999;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li {
+  display: inline-block;
+  width: 15%;
+  padding: 0 5px;
+}
+
+/*******************************************************
+Colors
+*******************************************************/
+
+body {
+  background-color: #fff;
+  color: #000;
+}
+
+#wrapper {
+  background-color: #fff;
+}
+
+h1, h2, h3, h4 {
+  color: #000;
+}
+
+header {
+  background-color: #999;
+  border-color: #999;
+}
+
+nav {
+  background: #fff;
+}
+
+nav a, nav:visited {
+  color: #000;
+}
+
+nav a.selected, nav a:hover {
+  color: #999;
+}
+
+#wrapper h3 {
+  color: #ff0000;
+}
+
+footer {
+  background-color: #fff;
+  color: #999;
+}
