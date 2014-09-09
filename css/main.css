@@ -44,6 +44,7 @@ h2 {
   padding: 30px 0;
   font-size: 3em;
   font-weight: normal;
+  text-align: center;
 }
 
 /*******************************************************
@@ -52,6 +53,8 @@ Navigation
 
 nav {
   text-align: center;
+  display: block;
+  width: 100%;
 }
 
 nav ul {
@@ -94,30 +97,6 @@ h4 {
 Page: Profile
 *******************************************************/
 
-
-.selfphoto {
-  float: right;
-  width: 200px;
-  max-width: 90%;
-  margin: 50px 20px 20px 30px;
-  border: solid 5px #999;
-}
-
-.animal {
-  float: left;
-  margin: 10px 20px;
-  width: 325px;
-  max-width: 90%;
-  border: solid 5px #999;
-}
-
-.map {
-  float: left;
-  max-width: 90%;
-  margin: 10px 30px 40px 30px;
-  border-radius: 50%;
-}
-
 #wrapper p {
   text-align: justify;
 }
@@ -136,12 +115,40 @@ Page: Profile
   text-align: center;
 }
 
+#Experience img{
+  float: center;
+  width: 150px;
+  max-width: 90%;
+}
+
+.selfphoto {
+  float: right;
+  width: 200px;
+  max-width: 90%;
+  margin: 50px 20px 20px 30px;
+  border: solid 5px #999;
+}
+
+.animal {
+  float: left;
+  margin: 10px 20px;
+  width: 325px;
+  max-width: 90%;
+  border: solid 5px #999;
+}
+
 #Skills h4{
   text-align: center;
 }
 
 .software img{
   max-width: 40px;
+}
+.map {
+  float: left;
+  max-width: 90%;
+  margin: 10px 30px 40px 30px;
+  border-radius: 50%;
 }
 
 /*******************************************************
@@ -186,9 +193,6 @@ body {
   color: #000;
 }
 
-#wrapper {
-  background-color: #fff;
-}
 
 h1, h2, h3, h4 {
   color: #000;
@@ -197,6 +201,7 @@ h1, h2, h3, h4 {
 header {
   background-color: #999;
   border-color: #999;
+  margin-bottom: 10px;
 }
 
 nav {
@@ -209,6 +214,10 @@ nav a, nav:visited {
 
 nav a.selected, nav a:hover {
   color: #999;
+}
+
+#wrapper {
+  background-color: #fff;
 }
 
 #wrapper h3 {
